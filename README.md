@@ -19,7 +19,7 @@ on you machine:
 To get the source of `fuse-ipfs-proxy`, clone the git repository via:
 
 ````
-$ git clone https://github.com/ColuLocalNetwork/fuse-ipfs-proxy
+$ git clone https://github.com/fuseio/fuse-ipfs-proxy
 ````
 
 This will clone the complete source to your local machine.
@@ -38,10 +38,10 @@ This task will run the application and start listening on port `3000`.
 
 Under the hood, we use a complete [osseus](https://github.com/colucom/osseus) stack.
 
-You will find the local configuration at [LOCAL.js](https://github.com/ColuLocalNetwork/fuse-ipfs-proxy/blob/master/config/LOCAL.js).
+You will find the local configuration at [LOCAL.js](https://github.com/fuseio/fuse-ipfs-proxy/blob/master/config/LOCAL.js).
 
 ## Configuration
-See [tutorial](https://github.com/ColuLocalNetwork/fuse-ipfs-proxy/blob/master/CONFIGURATION.md).
+See [tutorial](https://github.com/fuseio/fuse-ipfs-proxy/blob/master/CONFIGURATION.md).
 
 ## Testing
 
@@ -50,10 +50,10 @@ See [tutorial](https://github.com/ColuLocalNetwork/fuse-ipfs-proxy/blob/master/C
 
 ### Unit testing
 `npm test` executes (as you might think) the unit tests, which are located
-in [`test`](https://github.com/ColuLocalNetwork/fuse-ipfs-proxy/blob/master/test).
+in [`test`](https://github.com/fuseio/fuse-ipfs-proxy/blob/master/test).
 
 ## Contributing
-Please see [contributing guidelines](https://github.com/ColuLocalNetwork/fuse-ipfs-proxy/blob/master/.github/CONTRIBUTING.md).
+Please see [contributing guidelines](https://github.com/fuseio/fuse-ipfs-proxy/blob/master/.github/CONTRIBUTING.md).
 
 ## License
-Code released under the [MIT License](https://github.com/ColuLocalNetwork/fuse-ipfs-proxy/blob/master/LICENSE).
+Code released under the [MIT License](https://github.com/fuseio/fuse-ipfs-proxy/blob/master/LICENSE).
