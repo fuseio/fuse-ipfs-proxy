@@ -14,9 +14,10 @@ module.exports = (osseus) => {
     get: async (req, res, next) => {
       osseus.lib.Metadata.get(req.params.hash, true)
         .then(md => {
-          const type = imageType(md.data)
+          const buffer = Buffer.from(md.data)
+          const type = imageType(buffer)
           res.set('Content-Type', type ? type.mime : 'image/png')
-          res.send(md.data)
+          res.send(buffer)
         })
         .catch(err => { next(err) })
     }
